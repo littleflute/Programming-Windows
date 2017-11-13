@@ -14,15 +14,15 @@ body {
 .column {
     float: left;
     padding: 10px;
-    height: 300px; /* Should be removed. Only for demonstration */
+    height: 100%; /* Should be removed. Only for demonstration */
 }
 
 .left {
-  width: 25%;
+  width: 10%;
 }
 
 .right {
-  width: 75%;
+  width: 90%;
 }
 
 /* Clear floats after the columns */
@@ -35,21 +35,21 @@ body {
 </head>
 <body>
 
-<h2>Two Unequal Columns</h2>
+<h2>Programming-Windows </h2>
+ 
+<a target="_blank"  href="https://github.com/littleflute/Programming-Windows">prj</a> -
+<a target="_blank"  href="https://github.com/littleflute/Programming-Windows/edit/master/index.html">v0.0.5</a>
 
 <div class="row">
   <div class="column left" style="background-color:#aaa;">
     <h2>Index</h2>
     <div id = "index">
-    <p>
-    <button id="0001" onclick="f(this)">p1</button></p>
-    <p>
-    <button id="0002" onclick="f(this)">p2</button></p>
+    
     </div>
   </div>
   <div class="column right" style="background-color:#bbb;">
     <h2 id = "imgSrc">imgSrc</h2>
-    <p><img id = "myImg" src="https://raw.githubusercontent.com/littleflute/Programming-Windows/master/Book-5thE/0001.jpg"></p>
+    <p><img id = "myImg" width=100%  src="https://raw.githubusercontent.com/littleflute/Programming-Windows/master/Book-5thE/0001.jpg"></p>
   </div>
 </div>
 <script>
